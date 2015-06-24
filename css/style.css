@@ -56,8 +56,8 @@ body {
 /*******************************************/
 
 header {
-     width: 80%;
-     height: 100%;
+     width: 100%;
+     background-color: gray;
 }
 
 h1 {
@@ -78,44 +78,80 @@ a:hover {
      color: #A00;
 }
 
-nav a {
+li a {
      background-color: #000;
+     color: #FFF;
+     text-align: center;
 }
 
 main {
-     width: 45%;
-     height: 100%;
-     background-color: blue;
+     width: 56%;
 }
 
 aside {
-     width: 35%;
-     height: 100%;
-     background-color: yellow;
+     width: 27%;
+     margin-top: 10%;
+     color: #BBB;
 }
 
 main, aside {
      float: left;
 }
 
+article {
+     border-bottom: 1px solid #DDD;
+     margin: 3em 0;
+}
+
 h3 {
      color: #DDD;
+     font-size: 1.8em;
+}
+
+h2 a {
+     color: #000;
+     font-size: 36px;
+}
+
+img {
+     width: 100%;
+     padding: 1em 0;
+}
+
+span {
+     color: #DDD;
+     font-size: 6em;
+     line-height: .9em;
+     float: left;
+     margin-right: 10px;
+}
+
+h4 {
+     text-align: right;
+     font-weight: bold;
+     margin: 1em 0;
 }
 
 section {
-     margin-left: 10%;
-     border-bottom: 1px solid #000;
+     margin-left: 18%;
+     border-bottom: 1px solid #DDD;
+}
+
+section:last-of-type {
+     border: 0;
+}
+
+section img {
+     width: 90%;
+     margin: 0 5%;
 }
 
 footer {
-     width: 80%;
-     height: 100%;
-     background-color: gray;
      clear: both;
+     color: #DDD;
 }
 
-
-
-
-
+footer p {
+     padding: 1em 0;
+}
 
