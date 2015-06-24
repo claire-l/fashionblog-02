@@ -57,23 +57,35 @@ body {
 
 header {
      width: 86%;
-     border: 1px solid #000;
 }
 
 h1 {
      font-size: 3em;
-     float: left;
-     margin: 0;
 }
 
 h2 {
      font-size: 1.5em;
      color: #444;
+     padding-left: 1em;
+}
+
+h1, h2 {
+     display: inline;
+}
+
+.nav a {
+     width: 16.6666%;
+     border-right: 1px solid #FFF;
+     padding: 14px;
+     background-color: #000;
+     color: #FFF;
+     font-size: 22px;
+     text-align: center;
      float: left;
 }
 
-nav {
-     clear: both;
+.nav a:hover {
+     color: #DDD;
 }
 
 a {
@@ -91,7 +103,7 @@ main {
 
 aside {
      width: 30%;
-     margin-top: 8%;
+     margin-top: 5em;
      color: #BBB;
 }
 
